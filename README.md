@@ -1,16 +1,27 @@
 # app_rense
 
-A new Flutter project.
+Aplicación web + móvil para la visualización de datos recolectados mediante un microcontrolador.
 
-## Getting Started
+## Requisitos previos
 
-This project is a starting point for a Flutter application.
+- Tener **Flutter** instalado y configurado
+- Contar con un dispositivo móvil o un navegador compatible para ejecutar la app
 
-A few resources to get you started if this is your first Flutter project:
+## Instalación y ejecución
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Verificar que Flutter esté instalado correctamente:
+   ```bash
+   flutter doctor
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Ejecutar la aplicación:
+   ```bash
+   flutter run
+   ```
+
+3. Si no se detecta un dispositivo físico o emulador, seleccionar un navegador desde la lista de dispositivos disponibles (por ejemplo Chrome).
+
+## Notas adicionales
+
+- La aplicación puede ejecutarse tanto en web como en dispositivos móviles.
+- La app está diseñada para conectarse a un backend que almacena y procesa los datos recolectados.
